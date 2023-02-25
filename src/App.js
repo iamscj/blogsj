@@ -50,11 +50,7 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login />,
-  },
-  {
-    path:"*",
-    element:<h3>404 page not found</h3>,
-  },
+  }
 ]);
 
 function App() {
